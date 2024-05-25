@@ -111,3 +111,24 @@
     background-color: #0f0f0f; /* Gray background color */
     /* Add other styles for the section if needed */
 }
+
+@media (max-width: 850px) {
+    .card {
+        width: calc(100% / 3 - 30px);
+    }
+    .card-2 {
+        width: calc(100%);
+    }
+}
+
+@media (max-width: 580px) {
+    .card {
+        width: calc(100% / 2 - 30px);
+    }
+    .card-2 {
+        width: calc(100%);
+    }
+    .cardfull {
+        font-size: 22px;
+    }
+}
